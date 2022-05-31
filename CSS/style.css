@@ -359,8 +359,9 @@ body {
   }
 
   #hero {
-    color: blue;
+    color: #5D1CCE;
     display: flex;
+    align-items: center;
     height: 100vh;
     width: 100%;
   }
@@ -516,7 +517,7 @@ body {
 
   footer {
     background-color: #e6e6e6;
-    color: grey;
+    color: #8c8c8c;
     width: 100vw;
   }
 
