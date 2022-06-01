@@ -300,19 +300,19 @@ body {
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
   li {
-    font-size: .9em;
+    font-size: 1.25em;
   }
 
   p {
-    font-size: .65em;
+    font-size: 1em;
   }
 
   a {
-    font-size: .9em;
+    font-size: 1em;
     text-decoration: none;
     transition: color 500ms;
   }
@@ -362,8 +362,11 @@ body {
     color: #5D1CCE;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+     
   }
 
   #hero .contenedor {
@@ -376,8 +379,8 @@ body {
   #hero .selfie {
     position: relative;
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 80%;
+    width: auto;
   }
 
   #soy {
@@ -385,8 +388,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;
-    height: 80vh;
+    flex-direction: row;
+    height: 40vh;
+     
+  }
+
+  #soy .contenedor {
+    max-width: 45vw;
   }
 
   #soy .contenedor p {
@@ -397,8 +405,8 @@ body {
 
   #soy .img_soy {
     display: flex;
-    width: 20vw;
-    height: auto;
+    width: auto;
+    height: 50%;
     margin: 25px;
   }
 
@@ -407,15 +415,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    flex-direction: column;
-    height: 80vh;
+    flex-direction: row;
+    height: 60vh;
   }
 
   #experiencia .img_exp {
     display: flex;
     align-items: center;
-    width: 80vw;
-    height: auto;
+    width: auto;
+    height: 45%;
+    margin: 30px;
   }
 
   #experiencia .contenedor {
@@ -443,14 +452,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    flex-direction: column;
-    height: 80vh;
+    flex-direction: row-reverse;
+    height: 60vh;
+
+     
   }
 
   #academico .img_acad {
     display: flex;
     align-items: center;
-    width: 40vw;
+    width: 20%;
     height: auto;
     margin: 10px;
   }
@@ -482,7 +493,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    height: 20vh;
+    height: 40vh;
   }
 
   #portafolio a {
@@ -495,14 +506,16 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 70vh;
+
+     
   }
 
   #contacto .img_contact {
     display: flex;
     align-items: center;
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 20vh;
     margin: 30px;
   }
 
@@ -518,16 +531,21 @@ body {
   footer {
     background-color: #e6e6e6;
     color: #8c8c8c;
-    width: 100vw;
+    width: 100%;
   }
 
   footer .contenedor {
     padding: 15px;
-    height: 10vh;
+    height: 5vh;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: flex-end;
+  }
+
+  section {
+    max-width: 100%;
+    min-height: 200px;
   }
 }
 
