@@ -8,6 +8,8 @@ function mostrar_menu() {
 //   FUNCION PARALLAX
 window.onscroll = function() {
   var posicion = window.pageYOffset || document.documentElement.scrollTop;
-  var elemento = document.getElementById("selfie");
-  elemento.style.left = posicion * 0.15 + "px";
+  var selfie = document.getElementById("selfie");
+  var texto = document.getElementById("contenedor");
+  selfie.style.left = posicion * 0.5 + "px";
+  texto.style.right = posicion * 0.5 + "px";
 }

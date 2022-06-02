@@ -130,6 +130,9 @@ body {
     height: 90vh;
   }
 
+  #hero .contenedor {
+    position: relative;
+  }
   #hero .selfie {
     position: relative;
     border: 2px solid #ff0000;
@@ -377,6 +380,7 @@ body {
   }
 
   #hero .contenedor {
+    position: relative;
     align-content: center;
     justify-content: center;
     align-items: center;
