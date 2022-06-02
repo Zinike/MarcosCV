@@ -384,7 +384,7 @@ body {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 200px;
+    margin-left: 300px;
   }
 
   #hero .selfie {
@@ -392,6 +392,7 @@ body {
     display: flex;
     height: 80%;
     width: auto;
+    margin-right: 300px;
   }
 
   #soy {
