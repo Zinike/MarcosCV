@@ -15,14 +15,9 @@ html {
 }
 
 body {
-  color: #777777;
-  background-color: #fbfffb;
+  color: #e8e8e8;
+  background-color: #000a23;
   font-family: 'Cinzel', serif;
-}
-
-section {
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /*-------------------------------------------------------------VERSION MOVILES*/
@@ -123,11 +118,11 @@ section {
 
   /*------------------------CONDICION MODIFICADA POR JS*/
   header .contenedor .menu.mostrar_menu {
-    height: 130px;
+    height: 115px;
   }
 
   #hero {
-    color: #ff0000;
+    color: #5D1CCE;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -136,16 +131,19 @@ section {
   }
 
   #hero .contenedor {
+    margin-top: 50px;
     position: relative;
   }
 
   #hero .selfie {
     position: relative;
-    border: 2px solid #ff0000;
-    border-radius: 100%;
+    border: 2px solid #5D1CCE;
+    border-radius: 50%;
+    margin: 75px 0 10px 50px;
     padding: 3px;
     height: 200px;
     width: 200px;
+    box-shadow: 2px 2px 10px;
   }
 
   #soy {
@@ -285,13 +283,13 @@ section {
 
   footer {
     background-color: #e6e6e6;
-    color: #8c8c8c;
+    color: #555555;
     width: 100vw;
   }
 
   footer .contenedor {
-    padding: 15px;
     height: 10vh;
+    padding: 15px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -370,16 +368,17 @@ section {
   }
 
   header .contenedor .menu ul li {
-    list-style: none;
     padding: 0 15px;
   }
 
   #hero {
-    color: #2a0a5e;
+    color: #5D1CCE;
     display: flex;
     align-items: center;
     height: 80vh;
     width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
   #hero .contenedor {
@@ -387,14 +386,15 @@ section {
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin-left: 300px;
   }
 
   #hero .selfie {
-    z-index: -100;
     position: relative;
     display: flex;
     height: 80%;
     width: auto;
+    margin-right: 300px;
   }
 
   #soy {
@@ -420,6 +420,7 @@ section {
     display: flex;
     width: auto;
     height: 50%;
+    margin: 25px;
   }
 
   #experiencia {
@@ -436,6 +437,7 @@ section {
     align-items: center;
     width: auto;
     height: 45%;
+    margin: 30px;
   }
 
   #experiencia .contenedor {
@@ -472,6 +474,7 @@ section {
     align-items: center;
     width: 20%;
     height: auto;
+    margin: 10px;
   }
 
   #academico .contenedor {
@@ -522,6 +525,7 @@ section {
     align-items: center;
     width: auto;
     height: 20vh;
+    margin: 30px;
   }
 
   #contacto .contenedor {
@@ -541,7 +545,7 @@ section {
 
   footer .contenedor {
     padding: 15px;
-    height: 7vh;
+    height: 5vh;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -550,7 +554,7 @@ section {
 
   section {
     max-width: 100%;
-    min-height: 300px;
+    min-height: 200px;
   }
 }
 

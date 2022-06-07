@@ -10,6 +10,6 @@ window.onscroll = function() {
   var posicion = window.pageYOffset || document.documentElement.scrollTop;
   var selfie = document.getElementById("selfie");
   var texto = document.getElementById("contenedor");
-  selfie.style.left = posicion * 0.5 + "px";
+  selfie.style.right = posicion * 0.5 + "px";
   texto.style.right = posicion * 0.5 + "px";
 }
