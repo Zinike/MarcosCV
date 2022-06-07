@@ -15,10 +15,11 @@ html {
 }
 
 body {
-  color: #e8e8e8;
-  background-color: #000a23;
+  color: #777777;
+  background-color: #fbfffb;
   font-family: 'Cinzel', serif;
 }
+
 section {
   margin-left: 10%;
   margin-right: 10%;
@@ -284,7 +285,7 @@ section {
 
   footer {
     background-color: #e6e6e6;
-    color: grey;
+    color: #8c8c8c;
     width: 100vw;
   }
 
@@ -369,11 +370,12 @@ section {
   }
 
   header .contenedor .menu ul li {
+    list-style: none;
     padding: 0 15px;
   }
 
   #hero {
-    color: #5D1CCE;
+    color: #2a0a5e;
     display: flex;
     align-items: center;
     height: 80vh;
@@ -385,10 +387,10 @@ section {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
   }
 
   #hero .selfie {
+    z-index: -100;
     position: relative;
     display: flex;
     height: 80%;
@@ -539,7 +541,7 @@ section {
 
   footer .contenedor {
     padding: 15px;
-    height: 5vh;
+    height: 7vh;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -548,7 +550,7 @@ section {
 
   section {
     max-width: 100%;
-    min-height: 200px;
+    min-height: 300px;
   }
 }
 
