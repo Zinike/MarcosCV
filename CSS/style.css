@@ -285,6 +285,7 @@ body {
     margin-bottom: 15px;
   }
 
+
   footer {
     background-color: #e6e6e6;
     color: #555555;
@@ -544,6 +545,11 @@ body {
   #contacto .contenedor ul div {
     margin-bottom: 15px;
   }
+
+    #contacto .contenedor ul div a{
+      font-size: 1.5em;
+      margin: 0px 10px;
+    }
 
   footer {
     background-color: #e6e6e6;
