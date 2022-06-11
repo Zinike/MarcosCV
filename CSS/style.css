@@ -267,8 +267,8 @@ body {
   #contacto .img_contact {
     display: flex;
     align-items: center;
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 20vh;
     margin: 30px;
   }
 
@@ -277,8 +277,12 @@ body {
     flex-direction: column;
   }
 
-  #contacto .contenedor ul p {
-    margin: 10px;
+  #contacto .contenedor h3 {
+    margin-bottom: 25px;
+  }
+
+  #contacto .contenedor ul div {
+    margin-bottom: 15px;
   }
 
   footer {
@@ -533,8 +537,12 @@ body {
     flex-direction: column;
   }
 
-  #contacto .contenedor ul p {
-    margin: 10px;
+  #contacto .contenedor h3 {
+    margin-bottom: 25px;
+  }
+
+  #contacto .contenedor ul div {
+    margin-bottom: 15px;
   }
 
   footer {
