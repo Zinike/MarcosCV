@@ -11,5 +11,4 @@ window.onscroll = function() {
   var selfie = document.getElementById("selfie");
   var texto = document.getElementById("contenedor");
   selfie.style.right = posicion * 0.5 + "px";
-
 }
