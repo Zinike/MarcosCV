@@ -477,7 +477,7 @@ body {
   #academico .img_acad {
     display: flex;
     align-items: center;
-    width: 20%;
+    width: 15%;
     height: auto;
     margin: 10px;
   }
@@ -513,7 +513,7 @@ body {
   }
 
   #portafolio a {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   #contacto {
