@@ -412,7 +412,7 @@ body {
   }
 
   #soy .contenedor {
-    max-width: 45vw;
+    max-width: 50 vw;
   }
 
   #soy .contenedor p {
@@ -441,7 +441,7 @@ body {
     display: flex;
     align-items: center;
     width: auto;
-    height: 45%;
+    height: 40%;
     margin: 30px;
   }
 
