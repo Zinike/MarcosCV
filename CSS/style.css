@@ -123,10 +123,9 @@ body {
   }
 
   video {
+    position: fixed;
     z-index: -100;
-    position: absolute;
-    max-height: 100vh;
-    border-radius: 50px;
+    width: 100%;
   }
 
   #hero {
