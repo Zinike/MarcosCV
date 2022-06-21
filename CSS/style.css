@@ -22,7 +22,7 @@ body {
 }
 
 /*-------------------------------------------------------------VERSION MOVILES*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 720px) {
   h1 {
     font-size: 3.5em;
     font-family: 'Cinzel Decorative', cursive;
@@ -123,9 +123,10 @@ body {
   }
 
   video {
-    position: fixed;
     z-index: -100;
-    height: 100%;
+    position: absolute;
+    max-height: 100vh;
+    border-radius: 50px;
   }
 
   #hero {
@@ -136,13 +137,6 @@ body {
     text-align: center;
     flex-direction: column;
     height: 90vh;
-  }
-
-  #hero video {
-    z-index: -100;
-    position: absolute;
-    max-height: 100vh;
-    border-radius: 50px;
   }
 
   #hero .contenedor {
@@ -329,7 +323,7 @@ body {
 }
 
 /*-------------------------------------------------------------VERSION DESKTOP*/
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 721px) {
   h1 {
     font-size: 5em;
     font-family: 'Cinzel Decorative', cursive;
