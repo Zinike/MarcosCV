@@ -1,0 +1,42 @@
+/*---FUENTES IMPORTADAS---*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+/*---CONFIGURACION GENERAL---*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  display: flex;
+  font-family: 'Cinzel', serif;
+}
+
+video {
+  position: fixed;
+  z-index: -100;
+  height: 100%;
+  width: auto;
+}
+
+img {
+  display: none;
+}
+
+header {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+li {
+  flex-direction: row;
+}

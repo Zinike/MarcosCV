@@ -1,8 +1,8 @@
-/*----------------------------------------------------------FUENTES IMPORTADAS*/
+/*---FUENTES IMPORTADAS---*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
-/*-------------------------------------------------------CONFIGURACION GENERAL*/
+/*---CONFIGURACION GENERAL---*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,7 +10,7 @@
 }
 
 html {
-  scroll-behavior: smooth !important;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   overflow-y: visible;
 }
@@ -23,12 +23,12 @@ body {
 
 video {
   position: fixed;
-  z-index: -1;
+  z-index: -100;
   height: auto;
   width: auto;
 }
 
-/*-------------------------------------------------------------VERSION MOVILES*/
+/*---PORTRAIT---*/
 @media screen and (orientation: portrait) {
   html {
     font-size: 12px;
@@ -326,7 +326,7 @@ video {
   }
 }
 
-/*-------------------------------------------------------------VERSION DESKTOP*/
+/*---LANDSCAPE---*/
 @media screen and (orientation: landscape) {
   html {
     font-size: 16px;
