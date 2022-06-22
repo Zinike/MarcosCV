@@ -22,7 +22,7 @@ body {
 }
 
 /*-------------------------------------------------------------VERSION MOVILES*/
-@media screen and (max-width: 480px) {
+@media handheld and (max-width: 480px) {
   h1 {
     font-size: 3.5em;
     font-family: 'Cinzel Decorative', cursive;
