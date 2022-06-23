@@ -28,6 +28,10 @@ video {
   width: auto;
 }
 
+li img {
+  display : none;
+}
+
 /*---PORTRAIT---*/
 @media screen and (orientation: portrait) {
   html {

@@ -15,7 +15,6 @@ html {
 }
 
 body {
-  display: flex;
   flex-direction: column;
   font-family: 'Cinzel', serif;
 }
@@ -37,15 +36,43 @@ img {
 
 header {
   position: fixed;
+  z-index: 100;
   top: 0;
-  left:0;
+  left: 0;
   background-color: green;
   width: 100%;
   height: 10vh;
 }
+
+header .contenedor {
+  display: flex;
+  flex-direction: row;
+}
+header .contenedor .menu {
+  display: flex;
+  flex-direction: row;
+}
+header .contenedor .menu ul{
+  display: flex;
+  flex-direction: row;
+}
+
 header .icon_menu {
   display: none;
 }
+
+#hero {}
+
+#soy {}
+
+#experiencia {}
+
+#academico {}
+
+#portafolio {}
+
+#contacto {}
+
 footer {
   background-color: white;
 }
