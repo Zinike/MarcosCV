@@ -11,26 +11,22 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: visible;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
 
 body {
-  background-color: white;
+  color: #e8e8e8;
+  background-color: #000a23;
   font-family: 'Cinzel', serif;
 }
 
-img {
-  height: 2em;
-  width: auto;
-}
-
 header {
-  position: sticky;
+  position: fixed;
   z-index: 100;
   bottom: 0;
   left: 0;
-  background-color: green;
+  background-color: white;
   width: 100%;
   height: 10vh;
 }
@@ -54,23 +50,92 @@ header .contenedor .menu ul {
 
 header .contenedor .menu ul img {
   margin: 15px;
+  height: 2em;
+  width: auto;
 }
 
 header .icon_menu, .logo, .menu ul p {
   display: none;
 }
 
-#hero {}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-#soy {}
+#hero .selfie {
+  height: 50vh;
+  width: auto;
+}
 
-#experiencia {}
+#soy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 25px;
+}
 
-#academico {}
+#soy img {
+  height: 5rem;
+  width: auto;
+}
 
-#portafolio {}
+#experiencia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 25px;
+}
+#experiencia img {
+  height: 5rem;
+  width: auto;
+}
 
-#contacto {}
+#academico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 25px;
+}
+#academico img {
+  height: 5rem;
+  width: auto;
+}
+
+#portafolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 25px;
+}
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 25px;
+}
+#contacto img {
+  height: 5rem;
+  width: auto;
+}
+#contacto .contenedor img {
+  height: 1.5rem;
+  width: auto;
+}
 
 footer {
   background-color: white;
