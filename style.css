@@ -9,7 +9,6 @@
   margin: 0;
 }
 
-/*---PORTRAIT---*/
 @media screen and (orientation: portrait) {
   html {
     scroll-behavior: smooth;
@@ -151,7 +150,6 @@
   }
 }
 
-/*---LANDSCAPE---*/
 @media screen and (orientation: landscape) {
   html {
     scroll-behavior: smooth;
