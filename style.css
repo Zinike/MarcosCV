@@ -284,9 +284,9 @@
 
   #hero .selfie {
     position: absolute;
-    height: 65%;
+    height: 55%;
     width: auto;
-    right: 0px;
+    right: 50px;
     bottom: 0px;
   }
 
