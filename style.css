@@ -9,24 +9,12 @@
   margin: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-  overflow-y: visible;
-}
-
-body {
-  color: #e8e8e8;
-  background-color: #000a23;
-  font-family: 'Cinzel', serif;
-}
-
 /*---PORTRAIT---*/
 @media screen and (orientation: portrait) {
   html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    overflow-y: hidden;
+    font-size: 14px;
   }
 
   body {
@@ -64,12 +52,14 @@ body {
 
   header .contenedor .menu ul img {
     margin: 15px;
-    height: 2em;
+    height: 2.5em;
     width: auto;
   }
 
   header .icon_menu, .logo, .menu ul p {
     display: none;
+    height: 0;
+    width: 0;
   }
 
   #hero {
@@ -163,7 +153,16 @@ body {
 /*---LANDSCAPE---*/
 @media screen and (orientation: landscape) {
   html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
     font-size: 16px;
+  }
+
+  body {
+    color: #e8e8e8;
+    background-color: #000a23;
+    font-family: 'Cinzel', serif;
   }
 
   h1 {
