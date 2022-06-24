@@ -351,7 +351,7 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: visible;
-    font-size: 2.5vh;
+    font-size: 2.25vh;
   }
 
   body {
@@ -465,6 +465,11 @@
     margin: 25px;
   }
 
+  #portafolio a {
+    text-decoration: none;
+    font-size: 2em;
+  }
+
   #contacto {
     display: flex;
     flex-direction: column;
@@ -479,12 +484,26 @@
     width: auto;
   }
 
+  #contacto .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+
   #contacto .contenedor img {
-    height: 1.5rem;
+    height: 1.75rem;
     width: auto;
+    margin: 15px;
   }
 
   footer {
     background-color: white;
+    bottom: -150px;
   }
 }
