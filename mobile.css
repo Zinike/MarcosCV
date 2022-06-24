@@ -11,22 +11,13 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: visible;
+  overflow-y: hidden;
 }
 
 body {
-  flex-direction: column;
+  background-color: white;
   font-family: 'Cinzel', serif;
-}
-
-video {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -100;
-  height: 100%;
-  width: auto;
 }
 
 img {
@@ -35,9 +26,9 @@ img {
 }
 
 header {
-  position: fixed;
+  position: sticky;
   z-index: 100;
-  top: 0;
+  bottom: 0;
   left: 0;
   background-color: green;
   width: 100%;
@@ -46,18 +37,26 @@ header {
 
 header .contenedor {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
 }
+
 header .contenedor .menu {
   display: flex;
   flex-direction: row;
 }
-header .contenedor .menu ul{
+
+header .contenedor .menu ul {
   display: flex;
   flex-direction: row;
+  list-style: none;
 }
 
-header .icon_menu {
+header .contenedor .menu ul img {
+  margin: 15px;
+}
+
+header .icon_menu, .logo, .menu ul p {
   display: none;
 }
 
