@@ -10,27 +10,74 @@
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" href="Media/favicon.png">
+
+	<!-- Estiqueta Global (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TL61YL5B9Y"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-TL61YL5B9Y');
+	</script>
+	<!-- Fin - Google Analytics -->
+
 </head>
 
 <body>
 	<header>
 		<div class="contenedor">
 			<img class="logo" src="Media/logo.png" alt="logo">
-			<img id="icon_menu" class="icon_menu" src="Media/menu_symbol.png" alt="menu" width="40px">
+			<img id="icon_menu" class="icon_menu" src="Media/Icons/menu_symbol.png" alt="menu" width="40px">
 			<nav class="menu">
 				<ul>
-					<li><a href="index.html#soy">¿Quien soy?</a></li>
-					<li><a href="index.html#experiencia">Experiencia</a></li>
-					<li><a href="index.html#academico">Academico</a></li>
-					<li><a href="index.html#portafolio">Portafolio</a></li>
-					<li><a href="index.html#contacto">Contacto</a></li>
+					<li>
+						<a href="index.html#hero">
+							<img src="Media/Icons/casa.png">
+							<p>Inicio</p>
+						</a>
+					</li>
+					<li>
+						<a href="index.html#soy">
+							<img src="Media/Icons/huella-dactilar.png">
+							<p>¿Quien soy?</p>
+						</a>
+					</li>
+					<li>
+						<a href="index.html#experiencia">
+							<img src="Media/Icons/trofeo.png">
+							<p>Experiencia</p>
+						</a>
+					</li>
+					<li>
+						<a href="index.html#academico">
+							<img src="Media/Icons/academico.png">
+							<p>Academico</p>
+						</a>
+					</li>
+					<li>
+						<a href="index.html#portafolio">
+							<img src="Media/Icons/portafolio.png">
+							<p>Portafolio</p>
+						</a>
+					</li>
+					<li>
+						<a href="index.html#contacto">
+							<img src="Media/Icons/telefono.png">
+							<p>Contacto</p>
+						</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
+
 	<body>
-		<div class="portafolio__contenedor">
+		<div class="portafolio_contenedor">
 			<h3>Mi primer página</h3>
 			<a href="http://www.cbnegociosinmobiliarios.com/" target="_blank">CB Negocios Inmobiliarios</a>
 		</div>
