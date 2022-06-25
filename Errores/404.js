@@ -19,6 +19,3 @@ document.addEventListener("DOMContentLoaded",function(){
   }
   }
 })
-
-
-Resources
