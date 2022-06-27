@@ -580,6 +580,8 @@
   #portafolio a {
     text-decoration: none;
     font-size: 2em;
+    margin: 0;
+    padding: 0;
   }
 
   #contacto {
