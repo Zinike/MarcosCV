@@ -32,7 +32,7 @@
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   h4 {
@@ -51,10 +51,6 @@
     font-size: 1rem;
     text-decoration: none;
     transition: color 500ms;
-  }
-
-  li img {
-    display: none;
   }
 
   body {
@@ -107,10 +103,11 @@
     list-style: none;
   }
 
+  li img {
+    display: none;
+  }
+
   #hero {
-    background-image: url("Media/background.png");
-    background-position: center;
-    background-repeat: repeat-y;
     color: #5D1CCE;
     display: flex;
     align-items: center;
@@ -144,147 +141,111 @@
     bottom: 0px;
   }
 
-  #soy {
-    background-image: url("Media/background.png");
-    background-position: center;
-    background-repeat: repeat-y;
+  #servicios {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     flex-direction: row;
-    height: 40vh;
+    height: 60vh;
     width: 100vw;
   }
 
-  #soy .contenedor {
-    max-width: 50vw;
-  }
-
-  #soy .contenedor p {
-    font-size: 1rem;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  #soy .img_soy {
+  #servicios .contenedor {
+    width: 50%;
+    height: 85%;
     display: flex;
-    width: auto;
+  }
+
+  #servicios .card {
+    height: 100%;
+    width: 100%;
+    margin: 2rem;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #ffffff;
+    transition: all 500ms;
+    cursor: default;
+  }
+
+  #servicios .card:hover {
+    transform: scale(105%);
+  }
+
+  #servicios .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
     height: 50%;
-    margin: 25px;
+    border-radius: 4px;
   }
 
-  #experiencia {
-    background-image: url("Media/background.png");
-    background-position: center;
-    background-repeat: repeat-y;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    flex-direction: row;
-    height: 60vh;
-    width: 100vw;
+  #servicios .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+    color: #7a7a7a;
   }
 
-  #experiencia .img_exp {
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 40%;
-    margin: 30px;
-  }
-
-  #experiencia .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #experiencia .contenedor ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #experiencia .contenedor ul li {
-    margin-left: 15px;
-  }
-
-  #experiencia .contenedor ul p {
-    display: flex;
-    margin-left: 25px;
-  }
-
-  #academico {
-    background-image: url("Media/background.png");
-    background-position: center;
-    background-repeat: repeat-y;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    flex-direction: row-reverse;
-    height: 60vh;
-    width: 100vw;
-  }
-
-  #academico .img_acad {
-    display: flex;
-    align-items: center;
-    width: 15%;
-    height: auto;
-    margin: 10px;
-  }
-
-  #academico .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #academico .contenedor ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-  }
-
-  #academico .contenedor ul li {
-    margin-left: 15px;
-  }
-
-  #academico .contenedor ul p {
-    display: flex;
-    margin-left: 25px;
+  #servicios .card-text h3 {
+    font-size: 1.65rem;
   }
 
   #portafolio {
-    background-image: url("Media/background.png");
-    background-position: center;
-    background-repeat: repeat-y;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    flex-direction: column;
-    height: 50vh;
+    text-align: justify;
+    flex-direction: row;
+    height: 80vh;
     width: 100vw;
   }
 
-  #portafolio a {
+  #portafolio .contenedor {
+    width: 20%;
+    height: 85%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-    font-size: 2rem;
-    width: 100%;
+    flex-direction: column;
+  }
+
+  #portafolio .card {
     height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #ffffff;
+    transition: all 500ms;
+    cursor: default;
+  }
+
+  #portafolio .card:hover {
+    transform: scale(105%);
+  }
+
+  #portafolio .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: 50%;
+    border-radius: 4px;
+  }
+
+  #portafolio .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+    color: #7a7a7a;
+  }
+
+  #portafolio h3 {
+    font-size: 2rem;
+  }
+
+  #portafolio a {
+    font-size: 1.5rem;
   }
 
   #contacto {
-    background-image: url("Media/background.png");
-    background-position: center;
-    background-repeat: repeat-y;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,7 +290,7 @@
 
   .button {
     margin: .25rem;
-    width: 100%;
+    width: auto;
     height: 100%;
     border: none;
     outline: none;
@@ -338,7 +299,7 @@
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 25px;
+    border-radius: 7px;
   }
 
   .button:before {
@@ -348,7 +309,7 @@
     top: -2px;
     left: -2px;
     background-size: 400%;
-    z-index: -1;
+    z-index: -10;
     filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
@@ -533,7 +494,7 @@
     width: auto;
   }
 
-  #experiencia {
+  #servicios {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -542,7 +503,7 @@
     margin: 25px;
   }
 
-  #experiencia img {
+  #servicios img {
     height: 5rem;
     width: auto;
   }
