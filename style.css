@@ -23,32 +23,32 @@
   }
 
   h1 {
-    font-size: 5em;
+    font-size: 5rem;
     font-family: 'Cinzel Decorative', cursive;
   }
 
   h2 {
-    font-size: 3em;
+    font-size: 3rem;
   }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
 
   h4 {
-    font-size: 2em
+    font-size: 2rem;
   }
 
   li {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 
   p {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   a {
-    font-size: 1em;
+    font-size: 1rem;
     text-decoration: none;
     transition: color 500ms;
   }
@@ -162,7 +162,7 @@
   }
 
   #soy .contenedor p {
-    font-size: 1em;
+    font-size: 1rem;
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -276,7 +276,7 @@
     align-items: center;
     text-align: center;
     flex-direction: row;
-    font-size: 2em;
+    font-size: 2rem;
     width: 100%;
     height: 100%;
   }
@@ -294,14 +294,6 @@
     width: 100vw;
   }
 
-  #contacto .img_contact {
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 20vh;
-    margin: 30px;
-  }
-
   #contacto .contenedor {
     display: flex;
     flex-direction: column;
@@ -312,11 +304,11 @@
   }
 
   #contacto .contenedor ul div {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   #contacto .contenedor ul div a {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin: 0px 10px;
   }
 
@@ -336,7 +328,7 @@
   }
 
   .button {
-    margin: .25em;
+    margin: .25rem;
     width: 100%;
     height: 100%;
     border: none;
@@ -429,6 +421,7 @@
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    margin: 10px;
   }
 
   .button:before {
@@ -500,8 +493,8 @@
   }
 
   header .contenedor .menu ul img {
-    margin: 0.5em;
-    height: 2.5em;
+    margin: 0.5rem;
+    height: 2.5rem;
     width: auto;
   }
 
@@ -579,7 +572,7 @@
 
   #portafolio a {
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2rem;
     margin: 0;
     padding: 0;
   }
@@ -600,15 +593,17 @@
 
   #contacto .contenedor ul a {
     display: flex;
+    font-size: 1.5rem;
     justify-content: center;
     text-decoration: none;
-    margin: 10px;
   }
 
   #contacto .contenedor img {
+    display: flex;
+    justify-content: center;
     height: 4rem;
     width: auto;
-    margin: 15px;
+    margin: 25px;
   }
 
   footer {
