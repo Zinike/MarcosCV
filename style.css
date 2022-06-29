@@ -421,6 +421,7 @@
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    margin: 10px;
   }
 
   .button:before {
@@ -592,15 +593,17 @@
 
   #contacto .contenedor ul a {
     display: flex;
+    font-size: 1.5rem;
     justify-content: center;
     text-decoration: none;
-    margin: 10px;
   }
 
   #contacto .contenedor img {
+    display: flex;
+    justify-content: center;
     height: 4rem;
     width: auto;
-    margin: 15px;
+    margin: 25px;
   }
 
   footer {
