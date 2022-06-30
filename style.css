@@ -363,10 +363,7 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 2.25vh;
-  }
-
-  body {
-    color: #e8e8e8;
+    color: #5D1CCE;
     background-color: #000a23;
     font-family: 'Cinzel', serif;
   }
@@ -498,7 +495,7 @@
 
   #capacidades .card {
     height: 100%;
-    width: 90%;
+    width: 50%;
     border-radius: 4px;
     overflow: hidden;
     background: #ffffff;
@@ -528,7 +525,6 @@
     max-width: 45vw;
     margin-top: 20px;
     text-align: center;
-    color: #7a7a7a;
   }
 
   #capacidades h3 {
@@ -537,6 +533,69 @@
 
   #capacidades p {
     font-size: .8rem;
+  }
+
+  #portafolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  #portafolio .contenedor {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portafolio .card {
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #ffffff;
+    transition: all 500ms;
+    cursor: default;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portafolio .card:hover {
+    transform: scale(105%);
+  }
+
+  #portafolio .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: auto;
+    max-height: 25%;
+    border-radius: 4px;
+    align-content: center;
+  }
+
+  #portafolio .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #portafolio h3 {
+    font-size: 1rem;
+  }
+
+  #portafolio a {
+    text-decoration: none;
+    font-size: .8rem;
+  }
+
+  #portafolio .button {
+    margin: 0;
   }
 
   #contacto {
