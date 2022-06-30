@@ -141,7 +141,7 @@
     bottom: 0px;
   }
 
-  #servicios {
+  #capacidades {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,13 +151,13 @@
     width: 100vw;
   }
 
-  #servicios .contenedor {
+  #capacidades .contenedor {
     width: 50%;
     height: 85%;
     display: flex;
   }
 
-  #servicios .card {
+  #capacidades .card {
     height: 100%;
     width: 100%;
     margin: 2rem;
@@ -168,18 +168,18 @@
     cursor: default;
   }
 
-  #servicios .card:hover {
+  #capacidades .card:hover {
     transform: scale(105%);
   }
 
-  #servicios .card img {
+  #capacidades .card img {
     margin: 2% 2% 0 2%;
     width: 96%;
     height: 50%;
     border-radius: 4px;
   }
 
-  #servicios .card-text {
+  #capacidades .card-text {
     width: 100%;
     max-width: 45vw;
     margin-top: 20px;
@@ -187,7 +187,7 @@
     color: #7a7a7a;
   }
 
-  #servicios .card-text h3 {
+  #capacidades .card-text h3 {
     font-size: 1.65rem;
   }
 
@@ -402,18 +402,6 @@
     border-radius: 10px;
   }
 
-  .button:active {
-    color: #000
-  }
-
-  .button:active:after {
-    background: transparent;
-  }
-
-  .button:hover:before {
-    opacity: 1;
-  }
-
   .button:after {
     z-index: -1;
     content: '';
@@ -424,6 +412,18 @@
     left: 0;
     top: 0;
     border-radius: 10px;
+  }
+
+  .button:active {
+    color: #000
+  }
+
+  .button:active:after {
+    background: transparent;
+  }
+
+  .button:hover:before {
+    opacity: 1;
   }
 
   header {
@@ -480,62 +480,63 @@
     bottom: 0;
   }
 
-  #soy {
+  #capacidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  #capacidades .contenedor {
+    width: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 25px;
   }
 
-  #soy img {
-    height: 5rem;
-    width: auto;
-  }
-
-  #servicios {
+  #capacidades .card {
+    height: 100%;
+    width: 90%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #ffffff;
+    transition: all 500ms;
+    cursor: default;
+    margin: 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 25px;
   }
 
-  #servicios img {
-    height: 5rem;
-    width: auto;
+  #capacidades .card:hover {
+    transform: scale(105%);
   }
 
-  #academico {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 25px;
+  #capacidades .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: auto;
+    max-height: 25%;
+    border-radius: 4px;
+    align-content: center;
   }
 
-  #academico img {
-    height: 5rem;
-    width: auto;
+  #capacidades .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+    color: #7a7a7a;
   }
 
-  #portafolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 25px;
+  #capacidades h3 {
+    font-size: 1rem;
   }
 
-  #portafolio a {
-    text-decoration: none;
-    font-size: 2rem;
-    margin: 0;
-    padding: 0;
+  #capacidades p {
+    font-size: .8rem;
   }
 
   #contacto {
