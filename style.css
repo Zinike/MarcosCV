@@ -12,6 +12,7 @@
 :root {
   main-color: #000;
   second-color: #444;
+  third-color: #fff;
 }
 
 @media screen and (orientation: landscape) {
