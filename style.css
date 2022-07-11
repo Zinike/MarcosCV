@@ -10,9 +10,12 @@
 }
 
 :root {
-  main-color: #000;
-  second-color: #444;
-  third-color: #fff;
+  /*BLANCO CLARITO*/
+  main-color: #000a23;
+  /*AZUL OSCURO*/
+  second-color: #e8e8e8;
+  /*AZUL CLARITO*/
+  third-color: #5D1CCE;
 }
 
 @media screen and (orientation: landscape) {
@@ -114,7 +117,7 @@
   }
 
   #hero {
-    color: #5D1CCE;
+    color: var(third-color);
     display: flex;
     align-items: center;
     align-content: center;
@@ -370,7 +373,7 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 2.25vh;
-    color: #5D1CCE;
+    color: var(third-color);
     background-color: #000a23;
     font-family: 'Cinzel', serif;
   }
