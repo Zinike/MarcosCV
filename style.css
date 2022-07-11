@@ -26,8 +26,8 @@
   }
 
   body {
-    color: #e8e8e8;
-    background-color: #000a23;
+    color: var(second-color);
+    background-color: var(main-color);
     font-family: 'Cinzel', serif;
   }
 
@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     z-index: 100;
-    background-color: #e8e8e8;
+    background-color: var(second-color);
     height: 10vh;
     width: 100vw;
   }
@@ -374,7 +374,7 @@
     overflow-x: hidden;
     font-size: 2.25vh;
     color: var(third-color);
-    background-color: #000a23;
+    background-color: var(main-color);
     font-family: 'Cinzel', serif;
   }
 
@@ -438,7 +438,7 @@
     z-index: 100;
     bottom: 0;
     left: 0;
-    background-color: #e8e8e8;
+    background-color: var(second-color);
     width: 100%;
     height: 10vh;
   }
