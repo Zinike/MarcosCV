@@ -9,6 +9,11 @@
   margin: 0;
 }
 
+:root {
+  main-color: #000;
+  second-color: #444;
+}
+
 @media screen and (orientation: landscape) {
   html {
     scroll-behavior: smooth;
