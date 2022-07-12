@@ -12,12 +12,12 @@
 :root {
   /*AZUL OSCURO*/
   --background-color: #000e30;
+  /*NEGRO NO-TAN-NEGRO*/
+  --black-color: #1f1f1f;
   /*AZUL CLARITO*/
   --main-color: #5d1cce;
   /*BLANCO CLARITO*/
   --white-color: #e8e8e8;
-  /*NEGRO NO-TAN-NEGRO*/
-  --black-color: #1f1f1f;
 }
 
 @media screen and (orientation: landscape) {
