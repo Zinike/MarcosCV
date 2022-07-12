@@ -282,7 +282,7 @@
   }
 
   footer {
-    background-color: var(--main-color);
+    background-color: var(--white-color);
     color: var(--black-color);
     width: 100%;
   }
