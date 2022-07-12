@@ -119,7 +119,7 @@
   }
 
   #hero {
-    color: var(--white-color);
+    color: var(--main-color);
     display: flex;
     align-items: center;
     align-content: center;
