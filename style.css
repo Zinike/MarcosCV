@@ -186,7 +186,7 @@
     color: var(--main-color);
   }
 
-  #capacidades .card-text h3 {
+  #capacidades .card-text h2 {
     font-size: 1.5rem;
   }
 
@@ -239,11 +239,11 @@
     color: var(--main-color);
   }
 
-  #portafolio .card-text h3 {
+  #portafolio .card-text h2 {
     font-size: 1.5rem;
   }
 
-  #portafolio .card-text p {
+  #portafolio .card-text a {
     font-size: 1.2rem;
   }
 
