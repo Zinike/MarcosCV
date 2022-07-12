@@ -16,6 +16,8 @@
   --second-color: #5d1cce;
   /*BLANCO CLARITO*/
   --white-color: #000a23;
+  /*NEGRO NO-NEGRO*/
+  --black-color: #1f1f1f;
 }
 
 @media screen and (orientation: landscape) {
@@ -285,7 +287,7 @@
 
   footer {
     background-color: var(--third-color);
-    color: #8c8c8c;
+    color: var(--black-color);
     width: 100%;
   }
 
@@ -305,7 +307,7 @@
     border: none;
     outline: none;
     color: var(--second-color);
-    background: #444444;
+    background: var(--black-color);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -335,14 +337,14 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #444444;
+    background: var(--black-color);
     left: 0;
     top: 0;
     border-radius: 10px;
   }
 
   .button:active {
-    color: #000000;
+    color: var(--black-color);
   }
 
   .button:active:after {
@@ -383,7 +385,7 @@
     height: 100%;
     border: none;
     outline: none;
-    color: #fff;
+    color: var(--white-color);
     background: #111;
     cursor: pointer;
     position: relative;
@@ -415,14 +417,14 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #111111;
+    background: var(--black-color);
     left: 0;
     top: 0;
     border-radius: 10px;
   }
 
   .button:active {
-    color: #000
+    color: var(--black-color);
   }
 
   .button:active:after {
