@@ -25,11 +25,8 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 1.1vw;
-  }
-
-  body {
     color: var(--main-color);
-    background-color: var(--background-color);
+    background-color: var(--white-color);
     font-family: 'Cinzel', serif;
   }
 
