@@ -386,7 +386,7 @@
     border: none;
     outline: none;
     color: var(--white-color);
-    background: #111;
+    background: var(--black-color);
     cursor: pointer;
     position: relative;
     z-index: 0;
