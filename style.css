@@ -33,10 +33,6 @@ h3, h4 {
   font-size: 2rem;
 }
 
-  {
-  font-size: 2rem;
-}
-
 li {
   font-size: 1.25rem;
 }
@@ -57,7 +53,7 @@ a {
     overflow-x: hidden;
     font-size: 1.1vw;
     color: var(--main-color);
-    background-color: var(--white-color);
+    background-color: var(--background-color);
     font-family: 'Cinzel', serif;
   }
 
@@ -355,7 +351,7 @@ a {
     overflow-x: hidden;
     font-size: 2.25vh;
     color: var(--main-color);
-    background-color: var(--white-color);
+    background-color: var(--background-color);
     font-family: 'Cinzel', serif;
   }
 
