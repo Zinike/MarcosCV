@@ -10,7 +10,7 @@
 }
 
 .preloader {
-  background: url(images/loader.gif) no-repeat center center;
+  background: url(Media/loader.gif) no-repeat center center;
   background-size: cover;
   height: 100vh;
   width: 100%;
