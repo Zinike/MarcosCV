@@ -11,11 +11,11 @@
 
 :root {
   /*AZUL OSCURO*/
-  --main-color: #e8e8e8;
+  --main-color: #000a23;
   /*AZUL CLARITO*/
   --second-color: #5d1cce;
   /*BLANCO CLARITO*/
-  --white-color: #000a23;
+  --white-color: #e8e8e8;
   /*NEGRO NO-NEGRO*/
   --black-color: #1f1f1f;
 }
