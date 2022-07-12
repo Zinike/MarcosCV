@@ -10,12 +10,12 @@
 }
 
 :root {
-  /*BLANCO CLARITO*/
-  --main-color: #000a23;
   /*AZUL OSCURO*/
-  --second-color: #e8e8e8;
+  --main-color: #e8e8e8;
   /*AZUL CLARITO*/
-  --third-color: #5d1cce;
+  --second-color: #5d1cce;
+  /*BLANCO CLARITO*/
+  --white-color: #000a23;
 }
 
 @media screen and (orientation: landscape) {
@@ -26,8 +26,8 @@
   }
 
   body {
-    color: var(--second-color);
-    background-color: var(--main-color);
+    color: var(--main-color);
+    background-color: var(--white-color);
     font-family: 'Cinzel', serif;
   }
 
@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     z-index: 100;
-    background-color: var(--second-color);
+    background-color: var(--main-color);
     height: 10vh;
     width: 100vw;
   }
@@ -117,7 +117,7 @@
   }
 
   #hero {
-    color: var(--third-color);
+    color: var(--second-color);
     display: flex;
     align-items: center;
     align-content: center;
@@ -138,7 +138,7 @@
     display: flex;
     justify-content: center;
     align-self: auto;
-    background-color: var(--third-color);
+    background-color: var(--second-color);
     margin-top: 50px;
   }
 
@@ -173,7 +173,7 @@
     margin: 2rem;
     border-radius: 4px;
     overflow: hidden;
-    background: var(--third-color);
+    background: var(--main-color);
     transition: all 500ms;
     cursor: default;
   }
@@ -194,7 +194,7 @@
     max-width: 45vw;
     margin-top: 20px;
     text-align: center;
-    color: var(--third-color);
+    color: var(--second-color);
   }
 
   #capacidades .card-text h3 {
@@ -223,7 +223,7 @@
     width: 100%;
     border-radius: 4px;
     overflow: hidden;
-    background: var(--third-color);
+    background: var(--second-color);
     transition: all 500ms;
     cursor: default;
   }
@@ -244,7 +244,7 @@
     max-width: 45vw;
     margin-top: 20px;
     text-align: center;
-    color: var(--third-color);
+    color: var(--second-color);
   }
 
   #portafolio h3 {
@@ -304,7 +304,7 @@
     height: 100%;
     border: none;
     outline: none;
-    color: var(--third-color);
+    color: var(--second-color);
     background: #444444;
     cursor: pointer;
     position: relative;
@@ -373,8 +373,8 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 2.25vh;
-    color: var(--third-color);
-    background-color: var(--main-color);
+    color: var(--second-color);
+    background-color: var(--white-color);
     font-family: 'Cinzel', serif;
   }
 
@@ -438,7 +438,7 @@
     z-index: 100;
     bottom: 0;
     left: 0;
-    background-color: var(--second-color);
+    background-color: var(--main-color);
     width: 100%;
     height: 10vh;
   }
@@ -509,7 +509,7 @@
     width: 50%;
     border-radius: 4px;
     overflow: hidden;
-    background: var(--third-color);
+    background: var(--second-color);
     transition: all 500ms;
     cursor: default;
     margin: 10px 0;
@@ -567,7 +567,7 @@
     width: 50%;
     border-radius: 4px;
     overflow: hidden;
-    background: var(--third-color);
+    background: var(--second-color);
     transition: all 500ms;
     cursor: default;
     margin: 10px 0;
@@ -639,7 +639,7 @@
   }
 
   footer {
-    background-color: var(--third-color);
+    background-color: var(--second-color);
     bottom: -150px;
   }
 }
