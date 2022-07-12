@@ -91,12 +91,8 @@
     max-width: 100%;
   }
 
-  header .contenedor .log .logo {
+  header .contenedor .logo {
     height: 100%;
-  }
-
-  header .contenedor .log .icon_menu {
-    display: none;
   }
 
   header .contenedor .menu {
