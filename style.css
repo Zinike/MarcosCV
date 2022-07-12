@@ -15,7 +15,7 @@
   /*AZUL OSCURO*/
   --second-color: #e8e8e8;
   /*AZUL CLARITO*/
-  --third-color: #5D1CCE;
+  --third-color: #5d1cce;
 }
 
 @media screen and (orientation: landscape) {
@@ -26,7 +26,7 @@
   }
 
   body {
-    color: #e8e8e8;
+    color: var(--second-color);
     background-color: var(--main-color);
     font-family: 'Cinzel', serif;
   }
@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     z-index: 100;
-    background-color: #e8e8e8;
+    background-color: var(--second-color);
     height: 10vh;
     width: 100vw;
   }
@@ -117,7 +117,7 @@
   }
 
   #hero {
-    color: #5D1CCE;
+    color: var(--third-color);
     display: flex;
     align-items: center;
     align-content: center;
@@ -373,7 +373,7 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 2.25vh;
-    color: #5D1CCE;
+    color: var(--third-color);
     background-color: var(--main-color);
     font-family: 'Cinzel', serif;
   }
@@ -438,7 +438,7 @@
     z-index: 100;
     bottom: 0;
     left: 0;
-    background-color: #e8e8e8;
+    background-color: var(--second-color);
     width: 100%;
     height: 10vh;
   }
