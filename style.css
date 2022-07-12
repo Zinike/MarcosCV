@@ -624,7 +624,6 @@
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
-    box-shadow: inset 10px 10px var(--black-color);
   }
 
   .button:after {
@@ -637,7 +636,6 @@
     left: 0;
     top: 0;
     border-radius: 10px;
-    box-shadow: inset 10px 10px var(--black-color);
   }
 
   .button:active {
