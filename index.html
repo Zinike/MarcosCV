@@ -15,6 +15,9 @@
 </head>
 
 <body>
+
+  <div id="preloader" class="preloader"></div>
+
   <header>
     <div class="contenedor">
       <img class="logo" src="Media/logo.png" alt="logo">
@@ -124,5 +127,11 @@
   </footer>
 
   <script src="JS/menu.js"></script>
+  <script type="text/javascript">
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function() {
+      loader.style.display = "none";
+    })
+  </script>
 
 </html>
