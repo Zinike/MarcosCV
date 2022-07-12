@@ -142,6 +142,11 @@
   }
 
   #capacidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
     height: 60vh;
     width: 100vw;
   }
