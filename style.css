@@ -43,11 +43,7 @@
     font-family: 'Cinzel Decorative', cursive;
   }
 
-  h2 {
-    font-size: 3rem;
-  }
-
-  q {
+  h2, q {
     font-size: 3rem;
   }
 
