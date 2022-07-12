@@ -17,6 +17,12 @@
 <body>
 
   <div id="preloader" class="preloader"></div>
+  <script type="text/javascript">
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function() {
+      loader.style.display = "none";
+    })
+  </script>
 
   <header>
     <div class="contenedor">
@@ -127,11 +133,5 @@
   </footer>
 
   <script src="JS/menu.js"></script>
-  <script type="text/javascript">
-    var loader = document.getElementById("preloader");
-    window.addEventListener("load", function() {
-      loader.style.display = "none";
-    })
-  </script>
 
 </html>
