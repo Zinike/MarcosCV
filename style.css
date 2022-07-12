@@ -11,11 +11,11 @@
 
 :root {
   /*BLANCO CLARITO*/
-  main-color: #000a23;
+  --main-color: #000a23;
   /*AZUL OSCURO*/
-  second-color: #e8e8e8;
+  --second-color: #e8e8e8;
   /*AZUL CLARITO*/
-  third-color: #5D1CCE;
+  --third-color: #5D1CCE;
 }
 
 @media screen and (orientation: landscape) {
@@ -27,7 +27,7 @@
 
   body {
     color: #e8e8e8;
-    background-color: #000a23;
+    background-color: var(--main-color);
     font-family: 'Cinzel', serif;
   }
 
