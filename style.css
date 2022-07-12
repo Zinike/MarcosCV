@@ -119,7 +119,7 @@
   }
 
   #hero {
-    color: var(--second-color);
+    color: var(--white-color);
     display: flex;
     align-items: center;
     align-content: center;
@@ -140,7 +140,7 @@
     display: flex;
     justify-content: center;
     align-self: auto;
-    background-color: var(--white-color);
+    background-color: var(--second-color);
     margin-top: 50px;
   }
 
