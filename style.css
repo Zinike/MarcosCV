@@ -196,19 +196,19 @@
 
   #portafolio {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    flex-direction: row;
-    height: 80vh;
+    height: 60vh;
     width: 100vw;
   }
 
   #portafolio .contenedor {
+    display: flex;
+    flex-direction: row;
     width: 20%;
     height: 85%;
-    display: flex;
-    flex-direction: column;
   }
 
   #portafolio .card {
@@ -218,7 +218,6 @@
     overflow: hidden;
     background: var(--white-color);
     transition: all 500ms;
-    cursor: default;
   }
 
   #portafolio .card:hover {
@@ -229,7 +228,7 @@
     margin: 2% 2% 0 2%;
     width: 96%;
     height: 50%;
-    border-radius: 4px;
+    border-radius: 7px;
   }
 
   #portafolio .card-text {
@@ -240,12 +239,12 @@
     color: var(--main-color);
   }
 
-  #portafolio h3 {
-    font-size: 2rem;
+  #portafolio .card-text h3 {
+    font-size: 1.5rem;
   }
 
-  #portafolio a {
-    font-size: 1.5rem;
+  #portafolio .card-text p {
+    font-size: 1.2rem;
   }
 
   #contacto {
