@@ -374,7 +374,7 @@
     overflow-x: hidden;
     font-size: 2.25vh;
     color: #5D1CCE;
-    background-color: #000a23;
+    background-color: var(--main-color);
     font-family: 'Cinzel', serif;
   }
 
