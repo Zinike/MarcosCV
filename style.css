@@ -356,290 +356,24 @@
   html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-size: 1.1vw;
-  }
-
-  body {
+    font-size: 2.25vh;
     color: var(--main-color);
-    background-color: var(--background-color);
+    background-color: var(--white-color);
     font-family: 'Cinzel', serif;
   }
 
-  h1 {
-    font-size: 5rem;
-    font-family: 'Cinzel Decorative', cursive;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  h4 {
-    font-size: 2rem;
-  }
-
-  li {
-    font-size: 1.25rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  a {
-    font-size: 1rem;
-    text-decoration: none;
-    transition: color 500ms;
-  }
-
-  body {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  header {
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    z-index: 100;
-    background-color: var(--white-color);
-    height: 10vh;
-    width: 100vw;
-  }
-
-  header .contenedor {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    max-width: 100%;
-  }
-
-  header .contenedor .logo {
-    height: 100%;
-    padding-right: 300px;
-  }
-
-  header .contenedor .menu {
-    display: flex;
-  }
-
-  header .contenedor .menu ul {
-    display: flex;
-    flex-direction: row;
-  }
-
-  header .contenedor .menu ul li {
-    padding: 0 10px;
-    list-style: none;
-  }
-
-  li img {
-    display: none;
-  }
-
-  #hero {
-    color: var(--main-color);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  #hero .contenedor {
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #hero .contenedor .frase {
-    display: flex;
-    justify-content: center;
-    align-self: auto;
-    background-color: var(--white-color);
-    margin-top: 50px;
-  }
-
-  #hero .selfie {
-    position: absolute;
-    height: 55%;
-    width: auto;
-    right: 50px;
-    bottom: 0px;
-  }
-
-  #capacidades {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    height: 60vh;
-    width: 100vw;
-  }
-
-  #capacidades .contenedor {
-    display: flex;
-    flex-direction: row;
-    width: 20%;
-    height: 85%;
-  }
-
-  #capacidades .card {
-    height: 100%;
-    width: 100%;
-    margin: 2rem;
-    border-radius: 4px;
-    overflow: hidden;
-    background: var(--white-color);
-    transition: all 500ms;
-    cursor: default;
-  }
-
-  #capacidades .card:hover {
-    transform: scale(105%);
-  }
-
-  #capacidades .card img {
-    margin: 2% 2% 0 2%;
-    width: 96%;
-    height: 50%;
-    border-radius: 4px;
-  }
-
-  #capacidades .card-text {
-    width: 100%;
-    max-width: 45vw;
-    margin-top: 20px;
-    text-align: center;
-    color: var(--main-color);
-  }
-
-  #capacidades .card-text h3 {
-    font-size: 1.65rem;
-  }
-
-  #portafolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    flex-direction: row;
-    height: 80vh;
-    width: 100vw;
-  }
-
-  #portafolio .contenedor {
-    width: 20%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #portafolio .card {
-    height: 100%;
-    width: 100%;
-    border-radius: 4px;
-    overflow: hidden;
-    background: var(--white-color);
-    transition: all 500ms;
-    cursor: default;
-  }
-
-  #portafolio .card:hover {
-    transform: scale(105%);
-  }
-
-  #portafolio .card img {
-    margin: 2% 2% 0 2%;
-    width: 96%;
-    height: 50%;
-    border-radius: 4px;
-  }
-
-  #portafolio .card-text {
-    width: 100%;
-    max-width: 45vw;
-    margin-top: 20px;
-    text-align: center;
-    color: var(--main-color);
-  }
-
-  #portafolio h3 {
-    font-size: 2rem;
-  }
-
-  #portafolio a {
-    font-size: 1.5rem;
-  }
-
-  #contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    height: 80vh;
-    width: 100vw;
-  }
-
-  #contacto .contenedor {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #contacto .contenedor h3 {
-    margin-bottom: 25px;
-  }
-
-  #contacto .contenedor ul div {
-    margin-bottom: 25px;
-  }
-
-  #contacto .contenedor ul div a {
-    font-size: 1.5rem;
-    margin: 0px 10px;
-  }
-
-  footer {
-    background-color: var(--white-color);
-    color: var(--black-color);
-    width: 100%;
-  }
-
-  footer .contenedor {
-    padding: 15px;
-    height: 5vh;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
   .button {
-    margin: .25rem;
-    width: auto;
+    width: 100%;
     height: 100%;
     border: none;
     outline: none;
-    color: var(--main-color);
+    color: var(--white-color);
     background: var(--black-color);
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    margin: 10px;
   }
 
   .button:before {
@@ -649,7 +383,7 @@
     top: -2px;
     left: -2px;
     background-size: 400%;
-    z-index: -10;
+    z-index: -1;
     filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
@@ -681,6 +415,216 @@
 
   .button:hover:before {
     opacity: 1;
+  }
+
+  header {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 10vh;
+  }
+
+  header .contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  header .contenedor .menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header .contenedor .menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  header .contenedor .menu ul img {
+    margin: 0.5rem;
+    height: 2.5rem;
+    width: auto;
+  }
+
+  header .icon_menu, .logo, .menu ul p {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #hero .selfie {
+    height: 50vh;
+    width: auto;
+    right: 0;
+    bottom: 0;
+  }
+
+  #capacidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  #capacidades .contenedor {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #capacidades .card {
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--main-color);
+    transition: all 500ms;
+    cursor: default;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #capacidades .card:hover {
+    transform: scale(105%);
+  }
+
+  #capacidades .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: auto;
+    max-height: 25%;
+    border-radius: 4px;
+    align-content: center;
+  }
+
+  #capacidades .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #capacidades h3 {
+    font-size: 1rem;
+  }
+
+  #capacidades p {
+    font-size: .8rem;
+  }
+
+  #portafolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  #portafolio .contenedor {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portafolio .card {
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--main-color);
+    transition: all 500ms;
+    cursor: default;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portafolio .card:hover {
+    transform: scale(105%);
+  }
+
+  #portafolio .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: auto;
+    max-height: 25%;
+    border-radius: 4px;
+    align-content: center;
+  }
+
+  #portafolio .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #portafolio h3 {
+    font-size: 1rem;
+  }
+
+  #portafolio a {
+    text-decoration: none;
+    font-size: .8rem;
+  }
+
+  #portafolio .button {
+    margin: 0;
+  }
+
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #contacto .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul a {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  #contacto .contenedor img {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    width: auto;
+    margin: 25px;
+  }
+
+  footer {
+    background-color: var(--main-color);
+    bottom: -150px;
   }
 }
 
