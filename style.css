@@ -350,20 +350,6 @@
   .button:hover:before {
     opacity: 1;
   }
-
-  @keyframes glowing {
-    0% {
-      background-position: 0 0;
-    }
-
-    50% {
-      background-position: 400% 0;
-    }
-
-    100% {
-      background-position: 0 0;
-    }
-  }
 }
 
 @media screen and (orientation: portrait) {
@@ -639,5 +625,19 @@
   footer {
     background-color: var(--main-color);
     bottom: -150px;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
   }
 }
