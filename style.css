@@ -47,6 +47,10 @@
     font-size: 3rem;
   }
 
+  q {
+    font-size: 3rem;
+  }
+
   h3, h4 {
     font-size: 2rem;
   }
@@ -362,6 +366,10 @@
   }
 
   h2 {
+    font-size: 2rem;
+  }
+
+  q {
     font-size: 2rem;
   }
 
