@@ -171,7 +171,7 @@
     margin: 2rem;
     border-radius: 4px;
     overflow: hidden;
-    background: var(--background-color);
+    background: var(--white-color);
     transition: all 500ms;
     cursor: default;
   }
@@ -221,7 +221,7 @@
     width: 100%;
     border-radius: 4px;
     overflow: hidden;
-    background: var(--background-color);
+    background: var(--white-color);
     transition: all 500ms;
     cursor: default;
   }
