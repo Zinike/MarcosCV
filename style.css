@@ -20,6 +20,11 @@
     color: #e8e8e8;
     background-color: #000a23;
     font-family: 'Cinzel', serif;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
   }
 
   h1 {
@@ -51,14 +56,6 @@
     font-size: 1rem;
     text-decoration: none;
     transition: color 500ms;
-  }
-
-  body {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
   }
 
   header {
