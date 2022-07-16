@@ -112,7 +112,7 @@
     list-style: none;
   }
 
-  header .contenedor .menu li img {
+  header .contenedor .menu ul li img {
     display: none;
   }
 
@@ -488,6 +488,7 @@
   }
 
   #capacidades .card img {
+    display: block;
     margin: 2% 2% 0 2%;
     width: 96%;
     height: auto;
