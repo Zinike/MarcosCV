@@ -112,7 +112,7 @@
     list-style: none;
   }
 
-  li img {
+  header .contenedor .menu li img {
     display: none;
   }
 
@@ -423,13 +423,15 @@
     list-style: none;
   }
 
-  header .contenedor .menu ul img {
+  header .contenedor .menu li img {
     margin: 0.5rem;
     height: 2.5rem;
     width: auto;
   }
 
-  header .icon_menu, .logo, .menu ul p {
+  header .icon_menu,
+  header .logo,
+  header .menu ul p {
     display: none;
     height: 0;
     width: 0;
