@@ -1,0 +1,680 @@
+/*---FUENTES IMPORTADAS---*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+/*---CONFIGURACION GENERAL---*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.preloader {
+  background: url(Media/loader.gif) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 10000;
+}
+
+:root {
+  /*AZUL OSCURO*/
+  --background-color: #000e30;
+  /*NEGRO NO-TAN-NEGRO*/
+  --black-color: #1f1f1f;
+  /*AZUL CLARITO*/
+  --main-color: #5d1cce;
+  /*BLANCO CLARITO*/
+  --white-color: #e8e8e8;
+}
+
+@media screen and (orientation: landscape) {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-size: 1.1vw;
+    color: var(--main-color);
+    background-color: var(--background-color);
+    font-family: 'Cinzel', serif;
+  }
+
+  body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 5rem;
+    font-family: 'Cinzel Decorative', cursive;
+  }
+
+  h2, q {
+    font-size: 3rem;
+  }
+
+  h3, h4 {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 500ms;
+  }
+
+  header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+    background-color: var(--white-color);
+    height: 10vh;
+    width: 100vw;
+  }
+
+  header .contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    max-width: 100%;
+  }
+
+  header .contenedor .logo {
+    height: 100%;
+    padding-right: 300px;
+  }
+
+  header .contenedor .menu {
+    display: flex;
+  }
+
+  header .contenedor .menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header .contenedor .menu ul li {
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  header .contenedor .menu li img {
+    display: none;
+  }
+
+  #hero {
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #hero .contenedor {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero .contenedor .frase {
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+    background-color: var(--white-color);
+    margin-top: 50px;
+  }
+
+  #hero .selfie {
+    position: absolute;
+    height: 55%;
+    width: auto;
+    right: 50px;
+    bottom: 0px;
+  }
+
+  #capacidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 100vw;
+    height: 70vh;
+  }
+
+  #capacidades .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 85%;
+  }
+
+  #capacidades .card {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--white-color);
+    transition: all 500ms;
+  }
+
+  #capacidades .card:hover {
+    transform: scale(105%);
+  }
+
+  #capacidades .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: 50%;
+    border-radius: 7px;
+  }
+
+  #capacidades .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--main-color);
+  }
+
+  #capacidades .card-text h2 {
+    font-size: 1.5rem;
+  }
+
+  #capacidades .card-text p {
+    font-size: 1.2rem;
+  }
+
+  #portafolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 70vh;
+    width: 100vw;
+  }
+
+  #portafolio .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 85%;
+  }
+
+  #portafolio .card {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--white-color);
+    transition: all 500ms;
+  }
+
+  #portafolio .card:hover {
+    transform: scale(105%);
+  }
+
+  #portafolio .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: 50%;
+    border-radius: 7px;
+  }
+
+  #portafolio .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--main-color);
+  }
+
+  #portafolio .card-text h2 {
+    font-size: 1.5rem;
+  }
+
+  #portafolio .card-text a {
+    font-size: 1.2rem;
+  }
+
+  #contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  #contacto .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contacto .contenedor h3 {
+    margin-bottom: 25px;
+  }
+
+  #contacto .contenedor ul div {
+    margin-bottom: 25px;
+  }
+
+  #contacto .contenedor ul div a {
+    font-size: 1.5rem;
+    margin: 0px 10px;
+  }
+
+  footer {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    width: 100%;
+  }
+
+  footer .contenedor {
+    padding: 15px;
+    height: 5vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .button {
+    margin: .25rem;
+    width: auto;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: var(--main-color);
+    background: var(--black-color);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  }
+
+  .button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -10;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  .button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--black-color);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  .button:active {
+    color: var(--black-color);
+  }
+
+  .button:active:after {
+    background: transparent;
+  }
+
+  .button:hover:before {
+    opacity: 1;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-size: 2.25vh;
+    color: var(--main-color);
+    background-color: var(--background-color);
+    font-family: 'Cinzel', serif;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-family: 'Cinzel Decorative', cursive;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  q {
+    font-size: 2rem;
+  }
+
+  h3, h4 {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 500ms;
+  }
+
+  header {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    background-color: var(--white-color);
+    width: 100%;
+    height: 10vh;
+  }
+
+  header .contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  header .contenedor .menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header .contenedor .menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  header .contenedor .menu li img {
+    margin: 0.5rem;
+    height: 2.5rem;
+    width: auto;
+  }
+
+  header .icon_menu,
+  header .logo,
+  header .menu ul p {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #hero .selfie {
+    height: 50vh;
+    width: auto;
+    right: 0;
+    bottom: 0;
+  }
+
+  #capacidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  #capacidades .contenedor {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #capacidades .card {
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--white-color);
+    transition: all 500ms;
+    cursor: default;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #capacidades .card:hover {
+    transform: scale(105%);
+  }
+
+  #capacidades .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: auto;
+    max-height: 25%;
+    border-radius: 4px;
+    align-content: center;
+  }
+
+  #capacidades .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #capacidades h3 {
+    font-size: 1rem;
+  }
+
+  #capacidades p {
+    font-size: .8rem;
+  }
+
+  #portafolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  #portafolio .contenedor {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portafolio .card {
+    height: 100%;
+    width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--white-color);
+    transition: all 500ms;
+    cursor: default;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portafolio .card:hover {
+    transform: scale(105%);
+  }
+
+  #portafolio .card img {
+    margin: 2% 2% 0 2%;
+    width: 96%;
+    height: auto;
+    max-height: 25%;
+    border-radius: 4px;
+    align-content: center;
+  }
+
+  #portafolio .card-text {
+    width: 100%;
+    max-width: 45vw;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #portafolio h3 {
+    font-size: 1rem;
+  }
+
+  #portafolio a {
+    text-decoration: none;
+    font-size: .7rem;
+  }
+
+  #portafolio .button {
+    margin: 0;
+  }
+
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #contacto .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contacto .contenedor ul a {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  #contacto .contenedor img {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    width: auto;
+    margin: 25px;
+  }
+
+  footer {
+    background-color: var(--main-color);
+    bottom: -150px;
+  }
+
+  .button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    background: var(--black-color);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  .button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--black-color);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  .button:active {
+    color: var(--black-color);
+  }
+
+  .button:active:after {
+    background: transparent;
+  }
+
+  .button:hover:before {
+    opacity: 1;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
