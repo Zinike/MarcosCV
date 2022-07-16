@@ -40,6 +40,12 @@
   }
 
   body {
+<<<<<<< HEAD
+=======
+    color: #e8e8e8;
+    background-color: #000a23;
+    font-family: 'Cinzel', serif;
+>>>>>>> 6cc6a7b64ca46d5f984d869bfbee7361b826dadb
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -606,6 +612,7 @@
     background-color: var(--main-color);
     bottom: -150px;
   }
+<<<<<<< HEAD
 
   .button {
     width: 100%;
@@ -675,4 +682,6 @@
   100% {
     background-position: 0 0;
   }
+=======
+>>>>>>> 6cc6a7b64ca46d5f984d869bfbee7361b826dadb
 }
