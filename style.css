@@ -22,7 +22,7 @@ html {
   overflow-x: hidden;
   font-size: 1em;
   color: var(--color-purpura);
-  background-color: var(--color-negro);
+  background-color: var(--color-purpura);
 }
 
 @media screen and (orientation: landscape) {
