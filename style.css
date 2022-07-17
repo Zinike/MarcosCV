@@ -37,6 +37,10 @@ html {
     text-decoration: none;
   }
 
+  header .contenedor .menu ul img {
+    display: none;
+  }
+
   footer {
     position: fixed;
     bottom: 0;
