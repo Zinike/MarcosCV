@@ -8,7 +8,7 @@
   --color-white: #ffffff;
   --color-azul: #000465;
   --color-purpura: #5d1ce0;
-  --color-background: #000000;
+  --color-negro: #000000;
 }
 
 html::-webkit-scrollbar {
@@ -22,7 +22,7 @@ html {
   overflow-x: hidden;
   font-size: 1em;
   color: var(--color-purpura);
-  background-color: var(--color-background);
+  background-color: var(--color-negro);
 }
 
 @media screen and (orientation: landscape) {
