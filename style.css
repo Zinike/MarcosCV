@@ -7,6 +7,7 @@
 *:root {
   --color-white: #ffffff;
   --color-oscuro: #000465;
+  --color-hover: #5d1ce0;
 }
 
 html::-webkit-scrollbar {
@@ -61,6 +62,10 @@ html {
     align-content: center;
     justify-content: center;
     margin: 0 0 0 15px;
+  }
+
+  header .contenedor .menu ul a:hover {
+    color: var(--color-hover);
   }
 
   header .contenedor .menu ul img {
