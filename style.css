@@ -46,6 +46,16 @@ html {
     display: none;
   }
 
+  #hero {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #hero .contenedor {
+    display: flex;
+    flex-direction: row;
+  }
+
   footer {
     position: fixed;
     bottom: 0;
