@@ -23,6 +23,10 @@ html {
 }
 
 @media screen and (orientation: landscape) {
+  h1 {
+    font-size: 5rem;
+  }
+
   header {
     position: fixed;
     z-index: 100;
