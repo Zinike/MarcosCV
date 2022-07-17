@@ -1,169 +1,159 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Marcos Zingaretti">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Marcos Zingaretti">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-  <title>Marcos Zingaretti</title>
+    <title>Marcos Zingaretti</title>
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="Media/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Media/favicon.png">
 
-  <!-- Estiqueta Global (gtag.js) - Google Analytics -->
-  <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TL61YL5B9Y"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Estiqueta Global (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TL61YL5B9Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'G-TL61YL5B9Y');
-  </script>
-  <!-- Fin - Google Analytics -->
+      gtag('config', 'G-TL61YL5B9Y');
+    </script>
+    <!-- Fin - Google Analytics -->
 
-</head>
+  </head>
 
-<body>
-  <header>
-    <div class="contenedor">
-      <img class="logo" src="Media/logo.png" alt="logo">
-      <img id="icon_menu" class="icon_menu" src="Media/Icons/menu_symbol.png" alt="menu" width="40px">
-      <nav class="menu">
-        <ul>
-          <li>
+  <body>
+    <header>
+      <div class="contenedor">
+        <img class="logo" src="Media/logo.png" alt="logo">
+        <img id="icon_menu" class="icon_menu" src="Media/Icons/menu_symbol.png" alt="menu" width="40px">
+        <nav class="menu">
+          <ul>
             <a href="#hero">
               <img src="Media/Icons/casa.png">
               <p>Inicio</p>
             </a>
-          </li>
-          <li>
             <a href="#soy">
               <img src="Media/Icons/huella-dactilar.png">
               <p>¿Quien soy?</p>
             </a>
-          </li>
-          <li>
             <a href="#capacidades">
               <img src="Media/Icons/trofeo.png">
               <p>Mis capacidades</p>
             </a>
-          </li>
-          <li>
             <a href="#portafolio">
               <img src="Media/Icons/portafolio.png">
               <p>Portafolio</p>
             </a>
-          </li>
-          <li>
             <a href="#contacto">
               <img src="Media/Icons/telefono.png">
               <p>Contacto</p>
             </a>
-          </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero">
+      <div class="contenedor">
+        <h1>Marcos Zingaretti</h1>
+        <div class="frase">
+          <h2>"Memento vivere"</h2>
+        </div>
+
+      </div>
+      <img id="selfie" class="selfie" src="Media/selfie.png" alt="selfie"></img>
+    </section>
+
+    <section id="capacidades">
+      <div class="contenedor">
+        <h2>Capacidades</h2>
+        <div class="card">
+          <img src="Media/desarrollo-web.jpg" alt="desarrollo_web">
+          <div class="card-text">
+            <h3>Desarrollador Web</h3>
+            <p>En camino a convertirme en Desarrollador Web Full-Stack</p>
+            <p>Estudiando Licenciatura en Informática para saber más</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Media/barista.jpg" alt="barista_haciendo_arte_latte">
+          <div class="card-text">
+            <h3>Barista</h3>
+            <p>3 cursos que respaldan mis conocimientos</p>
+            <p>5 años trabajando que respaldan mi capacidad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portafolio">
+      <div class="contenedor">
+        <h2>Portafolios</h2>
+        <div class="card">
+          <img src="Media/CB-logo.png" alt="logo-Inmobiliaria">
+          <div class="card-text">
+            <h3>Mi Primer Página Profesional</h3>
+            <button type="button" class="button">
+              <a href="http://www.cbnegociosinmobiliarios.com/" target="_blank">Ver</a>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="contenedor">
+
+        <a href="https://www.buymeacoffee.com/marcoszinga">
+          <img src="https://img.buymeacoffee.com/button-api/?text=Comprame un café!&emoji=💻&slug=marcoszinga&button_colour=ff2e2e&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"/>
+        </a>
+
+        <ul>
+          <div class="telefono">
+            <img src="Media/Icons/phone.png" alt="phone" width="50px"><br>
+            <button class="button" type="button" name="button">
+              <a href="tel:5493584406950" target="_blank">Celular</a>
+            </button><br>
+            <img src="Media/Icons/whatsapp.png" alt="phone" width="50px"><br>
+            <button class="button" type="button" name="button">
+              <a href="https://wa.me/5493584406950" target="_blank">Whatsapp</a>
+            </button>
+          </div>
+
+          <div class="email">
+            <img src="Media/Icons/mail.png" alt="mail" width="50px"><br>
+            <button class="button" type="button" name="button">
+              <a href="mailto:contacto@marcoszinga.online" target="_blank">Empresa</a>
+            </button><br>
+            <button class="button" type="button" name="button">
+              <a href="mailto:marcoszinga94@gmail.com" target="_blank">Personal</a>
+            </button><br>
+          </div>
+
+          <div class="linkedin">
+            <img src="Media/Icons/linkedin.png" alt="LinkedIn" width="50px"><br>
+            <button class="button" type="button" name="button">
+              <a href="https://www.linkedin.com/in/marcos-zingaretti/" target="_blank">Mi Perfil</a>
+            </button>
+          </div>
         </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="hero">
-    <div class="contenedor">
-      <h1>Marcos Zingaretti</h1>
-      <div class="frase">
-        <h2>"Memento vivere"</h2>
       </div>
+    </section>
 
-    </div>
-    <img id="selfie" class="selfie" src="Media/selfie.png" alt="selfie"></img>
-  </section>
-
-  <section id="capacidades">
-    <div class="contenedor">
-      <h2>Capacidades</h2>
-      <div class="card">
-        <img src="Media/desarrollo-web.jpg" alt="desarrollo_web">
-        <div class="card-text">
-          <h3>Desarrollador Web</h3>
-          <p>En camino a convertirme en Desarrollador Web Full-Stack</p>
-          <p>Estudiando Licenciatura en Informática para saber más</p>
-        </div>
+    <footer>
+      <div class="contenedor">
+        <p>Curriculum Vitae by Marcos Zingaretti 2022 &copy;</p>
       </div>
-      <div class="card">
-        <img src="Media/barista.jpg" alt="barista_haciendo_arte_latte">
-        <div class="card-text">
-          <h3>Barista</h3>
-          <p>3 cursos que respaldan mis conocimientos</p>
-          <p>5 años trabajando que respaldan mi capacidad</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <section id="portafolio">
-    <div class="contenedor">
-      <h2>Portafolios</h2>
-      <div class="card">
-        <img src="Media/CB-logo.png" alt="logo-Inmobiliaria">
-        <div class="card-text">
-          <h3>Mi Primer Página Profesional</h3>
-          <button type="button" class="button">
-            <a href="http://www.cbnegociosinmobiliarios.com/" target="_blank">Ver</a>
-          </button>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="contacto">
-    <div class="contenedor">
-
-      <a href="https://www.buymeacoffee.com/marcoszinga">
-        <img src="https://img.buymeacoffee.com/button-api/?text=Comprame un café!&emoji=💻&slug=marcoszinga&button_colour=ff2e2e&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" />
-      </a>
-
-      <ul>
-        <div class="telefono">
-          <img src="Media/Icons/phone.png" alt="phone" width="50px"><br>
-          <button class="button" type="button" name="button">
-            <a href="tel:5493584406950" target="_blank">Celular</a>
-          </button><br>
-          <img src="Media/Icons/whatsapp.png" alt="phone" width="50px"><br>
-          <button class="button" type="button" name="button">
-            <a href="https://wa.me/5493584406950" target="_blank">Whatsapp</a>
-          </button>
-        </div>
-
-        <div class="email">
-          <img src="Media/Icons/mail.png" alt="mail" width="50px"><br>
-          <button class="button" type="button" name="button">
-            <a href="mailto:contacto@marcoszinga.online" target="_blank">Empresa</a>
-          </button><br>
-          <button class="button" type="button" name="button">
-            <a href="mailto:marcoszinga94@gmail.com" target="_blank">Personal</a>
-          </button><br>
-        </div>
-
-        <div class="linkedin">
-          <img src="Media/Icons/linkedin.png" alt="LinkedIn" width="50px"><br>
-          <button class="button" type="button" name="button">
-            <a href="https://www.linkedin.com/in/marcos-zingaretti/" target="_blank">Mi Perfil</a>
-          </button>
-        </div>
-      </ul>
-    </div>
-  </section>
-
-  <footer>
-    <div class="contenedor">
-      <p>Curriculum Vitae by Marcos Zingaretti 2022 &copy;</p>
-    </div>
-  </footer>
-
-  <script src="JS/menu.js"></script>
-</body>
+    <script src="JS/menu.js"></script>
+  </body>
 
 </html>
