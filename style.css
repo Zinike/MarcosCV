@@ -58,7 +58,7 @@ html {
     flex-direction: column;
   }
 
-  #hero img {
+  #hero .selfie {
     position: absolute;
     bottom: 0;
     right: 0;
