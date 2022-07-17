@@ -30,6 +30,10 @@ html {
     justify-content: space-around;
   }
 
+  header .contenedor .logo {
+    display: none;
+  }
+
   header .contenedor .menu ul {
     list-style: none;
   }
