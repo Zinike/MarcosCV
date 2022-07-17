@@ -50,6 +50,10 @@ html {
 
   header .contenedor .menu ul a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
 
   header .contenedor .menu ul img {
