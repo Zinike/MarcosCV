@@ -43,6 +43,9 @@ html {
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
 
   header .contenedor .menu ul a {
