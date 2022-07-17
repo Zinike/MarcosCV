@@ -8,6 +8,7 @@
   --color-white: #ffffff;
   --color-oscuro: #000465;
   --color-hover: #5d1ce0;
+  --color-background: #000000;
 }
 
 html::-webkit-scrollbar {
@@ -20,6 +21,7 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-size: 1em;
+  background-color: var(--color-background);
 }
 
 @media screen and (orientation: landscape) {
