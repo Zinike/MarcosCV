@@ -6,8 +6,8 @@
 
 *:root {
   --color-white: #ffffff;
-  --color-oscuro: #000465;
-  --color-hover: #5d1ce0;
+  --color-azul: #000465;
+  --color-purpura: #5d1ce0;
   --color-background: #000000;
 }
 
@@ -21,6 +21,7 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-size: 1em;
+  color: var(--color-purpura);
   background-color: var(--color-background);
 }
 
@@ -38,7 +39,7 @@ html {
     z-index: 100;
     width: 100%;
     height: 3rem;
-    background-color: var(--color-oscuro);
+    background-color: var(--color-negro);
   }
 
   header .contenedor {
@@ -75,7 +76,7 @@ html {
   }
 
   header .contenedor .menu ul a:hover {
-    color: var(--color-hover);
+    color: var(--color-purpura);
   }
 
   header .contenedor .menu ul img {
