@@ -58,6 +58,12 @@ html {
     flex-direction: column;
   }
 
+  #hero img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
   footer {
     position: fixed;
     bottom: 0;
