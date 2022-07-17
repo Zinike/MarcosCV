@@ -82,6 +82,9 @@ html {
   #hero .contenedor {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
 
   #hero .selfie {
