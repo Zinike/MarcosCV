@@ -27,6 +27,10 @@ html {
     font-size: 5rem;
   }
 
+  q {
+    font-size: 2rem;
+  }
+
   header {
     position: fixed;
     z-index: 100;
