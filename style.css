@@ -5,6 +5,7 @@
 }
 
 *:root {
+  --color-white: #ffffff;
   --color-oscuro: #000465;
 }
 
@@ -53,6 +54,7 @@ html {
   }
 
   header .contenedor .menu ul a {
+    color: var(--color-white);
     text-decoration: none;
     display: flex;
     align-items: center;
