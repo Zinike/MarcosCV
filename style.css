@@ -140,6 +140,7 @@ header .contenedor .menu ul img {
   align-items: center;
   flex-direction: column;
   background: #777;
+  border-radius: 15px;
 }
 
 #capacidades .contenedor .card img {
