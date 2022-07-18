@@ -37,6 +37,10 @@ q {
   font-size: 2rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   position: fixed;
   z-index: 100;
