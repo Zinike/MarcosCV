@@ -144,8 +144,8 @@ header .contenedor .menu ul img {
 }
 
 #capacidades .contenedor .card img {
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: auto;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -165,7 +165,7 @@ header .contenedor .menu ul img {
   align-items: center;
   align-content: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   height: auto;
   width: 100vw;
   margin-left: 10px;
@@ -181,8 +181,6 @@ header .contenedor .menu ul img {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 15px;
   margin: 50px;
-  height: auto;
-  width: auto;
 }
 
 #portafolio .contenedor .card {
@@ -194,11 +192,13 @@ header .contenedor .menu ul img {
   flex-direction: column;
   background: #777;
   border-radius: 15px;
+  width: 350px;
+  height: 500px;
 }
 
 #portafolio .contenedor .card img {
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: auto;
   object-fit: cover;
   border-radius: 15px;
 }
