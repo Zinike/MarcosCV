@@ -300,6 +300,10 @@ button:focus {
   outline: none;
 }
 
+.red {
+  color: #f07171;
+}
+
 .red:hover {
   color: #f07171;
   text-shadow: 0px 0px 10px #f07171;
