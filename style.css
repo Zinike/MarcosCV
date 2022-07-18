@@ -192,6 +192,7 @@ header .contenedor .menu ul img {
   justify-content: center;
   align-items: center;
   background: #777;
+  border-radius: 15px;
 }
 
 #portafolio .contenedor .card img {
