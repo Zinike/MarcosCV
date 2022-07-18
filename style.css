@@ -204,9 +204,13 @@ header .contenedor .menu ul img {
 }
 
 #portafolio .contenedor .card .card-text {
-  font-size: 1.5rem;
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  margin: 5px;
 }
 
 #contacto {
