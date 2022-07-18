@@ -128,6 +128,8 @@ header .contenedor .menu ul img {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 15px;
   margin: 50px;
+  height: auto;
+  width: auto;
 }
 
 #capacidades .contenedor .card {
@@ -145,6 +147,7 @@ header .contenedor .menu ul img {
 }
 
 #capacidades .contenedor .card .card-text {
+  font-size: 2rem;
   display: flex;
   flex-direction: column;
 }
