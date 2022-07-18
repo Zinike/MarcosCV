@@ -118,7 +118,6 @@ header .contenedor .menu ul img {
 }
 
 #capacidades .contenedor {
-  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   text-align: center;
   justify-content: center;
@@ -129,6 +128,7 @@ header .contenedor .menu ul img {
 #capacidades .contenedor .card {
   height: 350px;
   width: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   flex-wrap: wrap;
   text-align: center;
