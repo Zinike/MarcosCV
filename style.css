@@ -111,7 +111,6 @@ header .contenedor .menu ul img {
   width: 100%;
   height: auto;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.5);
   flex-direction: row;
   align-items: center;
   align-content: center;
@@ -122,7 +121,7 @@ header .contenedor .menu ul img {
   display: flex;
   height: auto;
   width: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -133,6 +132,7 @@ header .contenedor .menu ul img {
   height: 350px;
   width: 200px;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
