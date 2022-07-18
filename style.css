@@ -144,6 +144,7 @@ header .contenedor .menu ul img {
 #capacidades .contenedor .card img {
   width: 100%;
   height: 100%;
+  max-width: 250px;
 }
 
 #capacidades .contenedor .card .card-text {
