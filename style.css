@@ -147,7 +147,6 @@ header .contenedor .menu ul img {
   width: 100%;
   height: 75%;
   object-fit: cover;
-  border-radius: 15px;
 }
 
 #capacidades .contenedor .card .card-text {
@@ -201,7 +200,6 @@ header .contenedor .menu ul img {
   width: 100%;
   height: 75%;
   object-fit: cover;
-  border-radius: 15px;
 }
 
 #portafolio .contenedor .card .card-text {
