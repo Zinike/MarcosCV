@@ -194,6 +194,7 @@ header .contenedor .menu ul img {
   border-radius: 15px;
   width: 350px;
   height: 500px;
+  margin: 0 5px;
 }
 
 #portafolio .contenedor .card img {
