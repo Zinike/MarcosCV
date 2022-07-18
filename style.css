@@ -175,7 +175,7 @@ header .contenedor .menu ul img {
 #portafolio .contenedor {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.75);
