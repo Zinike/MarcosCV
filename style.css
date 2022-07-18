@@ -130,7 +130,7 @@ header .contenedor .menu ul img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #333;
   border-radius: 15px;
   margin: 50px;
 }
@@ -190,7 +190,7 @@ header .contenedor .menu ul img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #333;
   border-radius: 15px;
   margin: 50px;
 }
