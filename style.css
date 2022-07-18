@@ -107,11 +107,6 @@ header .contenedor .menu ul img {
   right: 0;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-}
-
 #capacidades {
   width: 100%;
   height: 100vh;
@@ -136,6 +131,11 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
 }
 
 footer .contenedor {
