@@ -300,7 +300,7 @@ button:focus {
   outline: none;
 }
 
-.red {
+.red::before {
   color: #f07171;
 }
 
