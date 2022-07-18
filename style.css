@@ -244,6 +244,13 @@ header .contenedor .menu ul img {
   margin-right: 10px;
 }
 
+#contacto .contenedor {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
 footer {
   padding: 10px 0 10px 0;
   background-color: var(--color-purpura);
