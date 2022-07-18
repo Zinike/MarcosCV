@@ -197,6 +197,18 @@ header .contenedor .menu ul img {
   flex-direction: column;
 }
 
+#contacto {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 100vw;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 footer {
   padding: 10px 0 10px 0;
   background-color: var(--color-purpura);
