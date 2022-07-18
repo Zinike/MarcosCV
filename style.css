@@ -107,30 +107,17 @@ header .contenedor .menu ul img {
   right: 0;
 }
 
-#capacidades {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-}
-
 #capacidades .contenedor {
-  display: flex;
-  height: auto;
   width: auto;
-  background-color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+  display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #999;
 }
 
 #capacidades .contenedor .card {
-  height: 350px;
-  width: 200px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -170,7 +157,7 @@ header .contenedor .menu ul img {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
