@@ -135,6 +135,14 @@ header .contenedor .menu ul img {
   margin: 50px;
 }
 
+#capacidades .contenedor .cards {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 #capacidades .contenedor .card {
   display: flex;
   flex-wrap: wrap;
