@@ -171,6 +171,11 @@ header .contenedor .menu ul img {
   align-items: center;
 }
 
+#portafolio .contenedor .card .card-text {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   position: fixed;
   bottom: 0;
