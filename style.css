@@ -108,23 +108,26 @@ header .contenedor .menu ul img {
 }
 
 #capacidades {
-  width: 100%;
-  height: auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: center;
+  flex-direction: column;
+  height: auto;
+  width: 100vw;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #capacidades .contenedor {
-  width: auto;
-  height: auto;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 15px;
+  margin: 50px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
-  background-color: var(--color-white);
+  justify-content: center;
 }
 
 #capacidades .contenedor .card {
@@ -133,6 +136,7 @@ header .contenedor .menu ul img {
   text-align: center;
   justify-content: center;
   align-items: center;
+  background: #777;
 }
 
 #capacidades .contenedor .card img {
