@@ -137,7 +137,7 @@ header .contenedor .menu ul img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #777;
+  background-color: rgba(255, 255, 255, 0.75);
   border-radius: 15px;
   width: 350px;
   height: 500px;
