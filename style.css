@@ -112,7 +112,7 @@ header .contenedor .menu ul img {
   align-items: center;
   align-content: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   height: auto;
   width: 100vw;
   margin-left: 10px;
@@ -138,6 +138,7 @@ header .contenedor .menu ul img {
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background: #777;
 }
 
