@@ -249,6 +249,7 @@ header .contenedor .menu ul img {
   align-items: center;
   align-content: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 footer {
