@@ -124,7 +124,7 @@ header .contenedor .menu ul img {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #999;
+  background-color: var(--color-white);
 }
 
 #capacidades .contenedor .card {
