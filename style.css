@@ -107,6 +107,16 @@ header .contenedor .menu ul img {
   right: 0;
 }
 
+#capacidades {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
 #capacidades .contenedor {
   width: auto;
   height: auto;
