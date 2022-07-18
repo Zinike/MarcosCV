@@ -139,6 +139,8 @@ header .contenedor .menu ul img {
   flex-direction: column;
   background: #777;
   border-radius: 15px;
+  width: 350px;
+  height: 500px;
 }
 
 #capacidades .contenedor .card img {
