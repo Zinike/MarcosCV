@@ -143,6 +143,8 @@ header .contenedor .menu ul img {
 }
 
 #capacidades .contenedor .card img {
+  width: 100px;
+  height: 200px;
   object-fit: cover;
 }
 
