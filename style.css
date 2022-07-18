@@ -132,7 +132,6 @@ header .contenedor .menu ul img {
   height: 350px;
   width: 200px;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.5);
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
