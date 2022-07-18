@@ -145,7 +145,6 @@ header .contenedor .menu ul img {
 
 #capacidades .contenedor .card img {
   width: 100%;
-  top: 0;
   height: 75%;
   object-fit: cover;
   border-radius: 15px;
