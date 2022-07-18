@@ -160,59 +160,6 @@ header .contenedor .menu ul img {
   margin: 5px;
 }
 
-#portafolio {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: row;
-  height: auto;
-  width: 100vw;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-#portafolio .contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 15px;
-  margin: 50px;
-}
-
-#portafolio .contenedor .card {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: #777;
-  border-radius: 15px;
-  width: 350px;
-  height: 500px;
-}
-
-#portafolio .contenedor .card img {
-  width: auto;
-  height: auto;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-#portafolio .contenedor .card .card-text {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 5px;
-}
-
 #contacto {
   display: flex;
   align-items: center;
