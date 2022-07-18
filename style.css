@@ -152,6 +152,10 @@ header .contenedor .menu ul img {
 
 #capacidades .contenedor .card .card-text {
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
