@@ -87,7 +87,7 @@ header .contenedor .menu ul a {
 }
 
 header .contenedor .menu ul a:hover {
-  color: var(--color-azul);
+  color: var(--color-negro);
 }
 
 header .contenedor .menu ul img {
