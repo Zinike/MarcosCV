@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
 
 .preloader {
-  background: url(images/loader.gif) no-repeat center center;
+  background: url(Media/loader.gif) no-repeat center center;
   background-size: cover;
   height: 100vh;
   width: 100%;
