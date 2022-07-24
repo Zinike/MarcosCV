@@ -135,43 +135,6 @@ header .contenedor .menu ul img {
   margin: 50px;
 }
 
-#capacidades .contenedor .cards {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-#capacidades .contenedor .card {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #333;
-  width: 350px;
-  height: 500px;
-}
-
-#capacidades .contenedor .card img {
-  width: 100%;
-  height: 75%;
-  object-fit: cover;
-}
-
-#capacidades .contenedor .card .card-text {
-  width: 100%;
-  height: 25%;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 #portafolio {
   display: flex;
   align-items: center;
@@ -195,7 +158,7 @@ header .contenedor .menu ul img {
   margin: 50px;
 }
 
-#portafolio .contenedor .cards {
+.cards {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -203,25 +166,25 @@ header .contenedor .menu ul img {
   flex-direction: row;
 }
 
-#portafolio .contenedor .card {
+.cards .card {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #333;
   width: 350px;
   height: 500px;
 }
 
-#portafolio .contenedor .card img {
+.cards .card img {
   width: 100%;
   height: 75%;
   object-fit: cover;
 }
 
-#portafolio .contenedor .card .card-text {
+.cards .card .card-text {
   width: 100%;
   height: 25%;
   display: flex;
