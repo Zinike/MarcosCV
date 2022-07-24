@@ -194,6 +194,7 @@ header .contenedor .menu ul img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: var(--color-white);
 }
 
 #contacto {
