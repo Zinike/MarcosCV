@@ -36,8 +36,13 @@ h2 {
   font-size: 4rem;
 }
 
-q, p {
+q {
   font-size: 3rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
   font-weight: 300;
 }
 
