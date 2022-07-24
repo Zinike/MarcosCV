@@ -168,6 +168,7 @@ header .contenedor .menu ul img {
 }
 
 .cards .card {
+  margin: 0 15px;
   display: flex;
   text-align: center;
   justify-content: center;
