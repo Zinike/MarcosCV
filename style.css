@@ -181,7 +181,7 @@ header .contenedor .menu ul img {
 .cards .card img {
   width: 100%;
   height: 75%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .cards .card .card-text {
