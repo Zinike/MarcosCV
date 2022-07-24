@@ -36,7 +36,7 @@ h2 {
   font-size: 4rem;
 }
 
-q {
+q, p {
   font-size: 3rem;
   font-weight: 300;
 }
