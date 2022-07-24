@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +25,7 @@ html {
   font-size: 1em;
   color: var(--color-purpura);
   background-color: var(--color-negro);
+  font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
