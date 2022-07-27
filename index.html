@@ -1,169 +1,176 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Marcos Zingaretti">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Marcos Zingaretti">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <title>Marcos Zingaretti</title>
+  <title>Marcos Zingaretti</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Media/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Media/favicon.png">
 
-    <!-- Estiqueta Global (gtag.js) - Google Analytics -->
-    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TL61YL5B9Y"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-TL61YL5B9Y');
-    </script>
-    <!-- Fin - Google Analytics -->
+  <!-- Estiqueta Global (gtag.js) - Google Analytics -->
+  <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TL61YL5B9Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  </head>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-TL61YL5B9Y');
+  </script>
+  <!-- Fin - Google Analytics -->
 
-  <body>
-    <header>
-      <div class="contenedor">
-        <img class="logo" src="Media/logo.png" alt="logo" height="50">
-        <img id="icon_menu" class="icon_menu" src="Media/Icons/menu_symbol.png" alt="menu" width="40px">
-        <nav class="menu">
-          <ul>
-            <a href="#hero">
-              <img src="Media/Icons/casa.png">
-              <p>Inicio</p>
-            </a>
-            <a href="#capacidades">
-              <img src="Media/Icons/trofeo.png">
-              <p>Mis capacidades</p>
-            </a>
-            <a href="#portafolio">
-              <img src="Media/Icons/portafolio.png">
-              <p>Portafolio</p>
-            </a>
-            <a href="#contacto">
-              <img src="Media/Icons/telefono.png">
-              <p>Contacto</p>
-            </a>
-          </ul>
-        </nav>
-      </div>
-    </header>
+</head>
 
-    <div id="preloader" class="preloader"></div>
-
-    <section id="hero">
-      <div class="contenedor">
-        <h1>Marcos Zingaretti</h1>
-        <q cite="latin">Memento vivere</q>
-      </div>
-      <img id="selfie" class="selfie" src="Media/selfie.png" alt="selfie"></img>
-    </section>
-
-    <section id="capacidades">
-      <div class="contenedor">
-        <h2>Capacidades</h2>
-        <div class="cards">
-
-          <div class="card">
-            <img src="Media/front.png" alt="frontend">
-            <div class="card-text">
-              <h3>Front-End</h3>
-              <p>Conocimientos en HTML, CSS y JS</p>
-              <p></p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="Media/fullstack.png" alt="desarrollo_web">
-            <div class="card-text">
-              <h3>Desarrollador Web</h3>
-              <p>Desarrollador Web Full-Stack</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="Media/back.png" alt="backend">
-            <div class="card-text">
-              <h3>Back-End</h3>
-              <p>Conocimientos en PHP y MySQL con uso de GIT</p>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portafolio">
-      <div class="contenedor">
-        <h2>Portafolios</h2>
-        <div class="cards">
-          <div class="card">
-            <img src="Media/CB-logo.png" alt="logo-Inmobiliaria">
-            <div class="card-text">
-              <h3>CB Negocios Inmobiliarios</h3>
-              <a href="https://www.cbnegociosinmobiliarios.com/" target="_blank">
-                <button type="button" class="button">Ir a la página</button>
-              </a>
-            </div>
-          </div>
-          <div class="card">
-            <img src="Media/KG-logo.png" alt="logo-kilagames">
-            <div class="card-text">
-              <h3>KilaGames</h3>
-              <a href="https://www.kilagames.com/" target="_blank">
-                <button type="button" class="button">Ir a la página</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contacto">
-      <div class="contenedor">
-
-        <h2>Contacta conmigo</h2>
-
+<body>
+  <header>
+    <div class="contenedor">
+      <img class="logo" src="Media/logo.png" alt="logo" height="50">
+      <img id="icon_menu" class="icon_menu" src="Media/Icons/menu_symbol.png" alt="menu" width="40px">
+      <nav class="menu">
         <ul>
-          <div class="telefono">
-            <a href="tel:5493584406950" target="_blank">
-              <button class="noselect red" type="button" name="button">Whatsapp</button>
-            </a>
-          </div>
-
-          <div class="email">
-            <a href="mailto:marcoszinga94@gmail.com" target="_blank">
-              <button class="noselect red" type="button" name="button">E-Mail</button>
-            </a>
-          </div>
-
-          <div class="linkedin">
-            <a href="https://www.linkedin.com/in/marcos-zingaretti/" target="_blank">
-              <button class="noselect red" type="button" name="button">LinkedIn</button>
-            </a>
-          </div>
+          <a href="#hero">
+            <img src="Media/Icons/casa.png">
+            <p>Inicio</p>
+          </a>
+          <a href="#capacidades">
+            <img src="Media/Icons/trofeo.png">
+            <p>Mis capacidades</p>
+          </a>
+          <a href="#portafolio">
+            <img src="Media/Icons/portafolio.png">
+            <p>Portafolio</p>
+          </a>
+          <a href="#contacto">
+            <img src="Media/Icons/telefono.png">
+            <p>Contacto</p>
+          </a>
         </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div id="preloader" class="preloader"></div>
+
+  <section id="hero">
+    <div class="contenedor">
+      <h1>Marcos Zingaretti</h1>
+      <q cite="latin">Memento vivere</q>
+    </div>
+    <img id="selfie" class="selfie" src="Media/selfie.png" alt="selfie"></img>
+  </section>
+
+  <section id="capacidades">
+    <div class="contenedor">
+      <h2>Capacidades</h2>
+      <div class="cards">
+
+        <div class="card">
+          <img src="Media/front.png" alt="frontend">
+          <div class="card-text">
+            <h3>Front-End</h3>
+            <p>Conocimientos en HTML, CSS y JS</p>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Media/fullstack.png" alt="desarrollo_web">
+          <div class="card-text">
+            <h3>Desarrollador Web</h3>
+            <p>Desarrollador Web Full-Stack</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Media/back.png" alt="backend">
+          <div class="card-text">
+            <h3>Back-End</h3>
+            <p>Conocimientos en PHP y MySQL con uso de GIT</p>
+            <p></p>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <div class="contenedor">
-        <p>Curriculum Vitae by Marcos Zingaretti 2022 &copy;</p>
+  <section id="portafolio">
+    <div class="contenedor">
+      <h2>Portafolios</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="Media/CB-logo.png" alt="logo-Inmobiliaria">
+          <div class="card-text">
+            <h3>CB Negocios Inmobiliarios</h3>
+            <a href="https://www.cbnegociosinmobiliarios.com/" target="_blank">
+              <button type="button" class="button">Ir a la página</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Media/KG-logo.png" alt="logo-kilagames">
+          <div class="card-text">
+            <h3>KilaGames</h3>
+            <a href="https://www.kilagames.com/" target="_blank">
+              <button type="button" class="button">Ir a la página</button>
+            </a>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="JS/menu.js"></script>
+  <section id="contacto">
+    <div class="contenedor">
 
-    <script type="text/javascript">
-      var loader = document.getElementById("preloader");
-      window.addEventListener("load", function () {
-        loader.style.display = "none";
-      })
-    </script>
-  </body>
+      <h2>Contacta conmigo</h2>
+
+      <ul>
+        <div class="telefono">
+          <a href="tel:5493584406950" target="_blank">
+            <button class="noselect red" type="button" name="button">Whatsapp</button>
+          </a>
+        </div>
+
+        <div class="telefono">
+          <a href="https://t.me/marcoszinga" target="_blank">
+            <button class="noselect red" type="button" name="button">Telegram</button>
+          </a>
+        </div>
+
+        <div class="email">
+          <a href="mailto:marcoszinga94@gmail.com" target="_blank">
+            <button class="noselect red" type="button" name="button">E-Mail</button>
+          </a>
+        </div>
+
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/marcos-zingaretti/" target="_blank">
+            <button class="noselect red" type="button" name="button">LinkedIn</button>
+          </a>
+        </div>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contenedor">
+      <p>Curriculum Vitae by Marcos Zingaretti 2022 &copy;</p>
+    </div>
+  </footer>
+
+  <script src="JS/menu.js"></script>
+
+  <script type="text/javascript">
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function() {
+      loader.style.display = "none";
+    })
+  </script>
+</body>
 
 </html>
